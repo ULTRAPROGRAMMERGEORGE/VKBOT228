@@ -17,7 +17,7 @@ def sbor_infi(chat_id, kok):
 
 
 group_id = 209144032
-tokenjopan=''
+tokenjopan='' #so you need to fill it with token from your vk group
 gh = vk_api.VkApi(token=tokenjopan)
 server1 = Server(vk_api_token, 209144032, "server1")
 long_poll = VkBotLongPoll(gh, group_id)
